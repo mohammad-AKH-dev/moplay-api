@@ -3,22 +3,16 @@
     { "id": 1, "title": "Hello World" },
     { "id": 2, "title": "Deploy JSON Server" }
   ],
-  "categories": [
+  "users": [
     {
-      "value": "all",
-      "count": 18
-    },
-    {
-      "value": "cakes",
-      "count": 9
-    },
-    {
-      "value": "puddings",
-      "count": 5
-    },
-    {
-      "value": "sweets",
-      "count": 8
+       "id": 1,
+       "firstName": "Mohammad",
+       "lastName": "Akhlaghi",
+       "userName": "<dev>Mamad</dev>",
+       "password": "33443344",
+       "email": "MohammadAkhlaghi843@gmail.com",
+       "movies": [],
+       "shows": []
     }
   ]
 }
