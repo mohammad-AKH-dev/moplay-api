@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // مسیر db.json نسبت به ریشه پروژه
+const router = jsonServer.router('./backend/db.json'); // مسیر db.json نسبت به ریشه پروژه
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 4000; // پورت 4000
 
