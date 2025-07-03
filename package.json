@@ -8,7 +8,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "npx json-server ./backend/db.json"
+    "server": "npx json-server ./backend/db.json",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
